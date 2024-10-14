@@ -1,0 +1,10 @@
+<?php
+// Input age in years
+$age = intval(readline("Enter your age in years: "));
+
+// Calculate total number of days lived
+$total_days = $age * 365;
+
+// Display the total days lived
+echo "You have lived approximately $total_days days.";
+?>
