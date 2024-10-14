@@ -1,0 +1,10 @@
+<?php
+// Input temperature in Centigrade
+$centigrade = floatval(readline("Enter temperature in Centigrade: "));
+
+// Convert to Fahrenheit
+$fahrenheit = ($centigrade * 9/5) + 32;
+
+// Display the Fahrenheit temperature
+echo "Temperature in Fahrenheit: $fahrenheit°F";
+?>
