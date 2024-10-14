@@ -1,0 +1,15 @@
+<?php
+// Input marks for four subjects
+$subject1 = intval(readline("Enter marks for Subject 1: "));
+$subject2 = intval(readline("Enter marks for Subject 2: "));
+$subject3 = intval(readline("Enter marks for Subject 3: "));
+$subject4 = intval(readline("Enter marks for Subject 4: "));
+
+// Calculate total and percentage
+$total_marks = 400;
+$obtained_marks = $subject1 + $subject2 + $subject3 + $subject4;
+$percentage = ($obtained_marks * 100) / $total_marks;
+
+// Display the percentage
+echo "You scored $percentage%.";
+?>
